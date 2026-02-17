@@ -1,0 +1,29 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background: #000;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.top-container {
+  border: 1px solid #868e96;
+  color: #fff;
+}
+
+.mid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 0.1fr 0.2fr 1fr;
+}
+
+.main-content {
+  border-bottom: 1px solid #868e96;
+}
